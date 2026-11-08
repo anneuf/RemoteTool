@@ -12,8 +12,8 @@ source code is not published here.
 
 ## Download
 
-Get the installer for your system from the latest
-[release](https://github.com/anneuf/RemoteTool/releases/latest):
+Get the installer for your system from the
+[releases page](https://github.com/anneuf/RemoteTool/releases) (beta versions are marked *Pre-release*):
 
 | System | File | Notes |
 | --- | --- | --- |
