@@ -17,10 +17,10 @@ Get the installer for your system from the latest
 
 | System | File | Notes |
 | --- | --- | --- |
-| Windows 10/11 (64-bit) | `Remote Tool_0.8.1_x64-setup.exe` | Installs for your user, no admin rights. The installer is not signed yet: Windows SmartScreen warns – choose **More info → Run anyway**. |
+| Windows 10/11 (64-bit) | `remote-tool_0.8.1_x64-setup.exe` | Installs for your user, no admin rights. The installer is not signed yet: Windows SmartScreen warns – choose **More info → Run anyway**. |
 | Debian / Ubuntu / Mint (64-bit) | `remote-tool_0.8.1_amd64.deb` | `sudo apt install ./remote-tool_0.8.1_amd64.deb` (pulls in the dependencies). |
 | Any Linux (64-bit) | `remote-tool_0.8.1_amd64.AppImage` | `chmod +x` the file and run it; no installation. |
-| macOS 11+ | `Remote Tool_0.8.1_*.dmg` | Not signed yet: the first time, **right-click the app → Open → Open**. |
+| macOS 11+ | `remote-tool_0.8.1_*.dmg` (coming soon) | Not signed yet: the first time, **right-click the app → Open → Open**. |
 
 ## First steps
 
@@ -43,3 +43,5 @@ host names, user names or addresses you consider private.
 ## Licence
 
 MIT – see [LICENSE](LICENSE).
+
+Checksums: `SHA256SUMS.txt` in the release (`sha256sum -c SHA256SUMS.txt`).
