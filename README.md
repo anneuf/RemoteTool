@@ -20,7 +20,7 @@ Get the installer for your system from the
 | Windows 10/11 (64-bit) | `remote-tool_0.8.1_x64-setup.exe` | Installs for your user, no admin rights. The installer is not signed yet: Windows SmartScreen warns – choose **More info → Run anyway**. |
 | Debian / Ubuntu / Mint (64-bit) | `remote-tool_0.8.1_amd64.deb` | `sudo apt install ./remote-tool_0.8.1_amd64.deb` (pulls in the dependencies). |
 | Any Linux (64-bit) | `remote-tool_0.8.1_amd64.AppImage` | `chmod +x` the file and run it; no installation. |
-| macOS 11+ (Apple silicon) | `remote-tool_0.8.1_aarch64.dmg` | Drag Remote Tool to Applications. Not signed yet: the first time, **right-click the app → Open → Open**. Intel Macs are not supported by this build. |
+| macOS 11+ (Apple silicon) | `remote-tool_0.8.1_aarch64.dmg` | Drag Remote Tool to Applications. Not signed by Apple yet: the first start is blocked – open **System Settings → Privacy & Security → Open Anyway**. If macOS says the app *is damaged*, run once in Terminal: `xattr -dr com.apple.quarantine "/Applications/Remote Tool.app"`. Intel Macs are not supported by this build. |
 
 ## First steps
 
