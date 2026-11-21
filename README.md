@@ -7,7 +7,7 @@ algorithms), **Telnet**, **serial consoles**, **RDP** and **VNC**, **SFTP/SCP** 
 **tunnels** and jump hosts, split terminals with broadcast input, an encrypted local vault and a
 shared team vault. Connections live in plain-text *collections* that can be shared through Git.
 
-This repository is for the **beta test** (version 0.8.6): downloads and problem reports. The
+This repository is for the **beta test** (version 0.8.7): downloads and problem reports. The
 source code is not published here.
 
 ## Download
@@ -17,10 +17,10 @@ Get the installer for your system from the
 
 | System | File | Notes |
 | --- | --- | --- |
-| Windows 10/11 (64-bit) | `remote-tool_0.8.6_x64-setup.exe` | Installs for your user, no admin rights. The installer is not signed yet: Windows SmartScreen warns – choose **More info → Run anyway**. |
-| Debian / Ubuntu / Mint (64-bit) | `remote-tool_0.8.6_amd64.deb` | `sudo apt install ./remote-tool_0.8.6_amd64.deb` (pulls in the dependencies). |
-| Any Linux (64-bit) | `remote-tool_0.8.6_amd64.AppImage` | `chmod +x` the file and run it; no installation. |
-| macOS 11+ (Apple silicon) | `remote-tool_0.8.6_aarch64.dmg` | Drag Remote Tool to Applications. Not signed by Apple yet: the first start is blocked – open **System Settings → Privacy & Security → Open Anyway**. If macOS says the app *is damaged*, run once in Terminal: `xattr -dr com.apple.quarantine "/Applications/Remote Tool.app"`. Intel Macs are not supported by this build. |
+| Windows 10/11 (64-bit) | `remote-tool_0.8.7_x64-setup.exe` | Installs for your user, no admin rights. The installer is not signed yet: Windows SmartScreen warns – choose **More info → Run anyway**. |
+| Debian / Ubuntu / Mint (64-bit) | `remote-tool_0.8.7_amd64.deb` | `sudo apt install ./remote-tool_0.8.7_amd64.deb` (pulls in the dependencies). |
+| Any Linux (64-bit) | `remote-tool_0.8.7_amd64.AppImage` | `chmod +x` the file and run it; no installation. |
+| macOS 11+ (Apple silicon) | `remote-tool_0.8.7_aarch64.dmg` | Drag Remote Tool to Applications. Not signed by Apple yet: the first start is blocked – open **System Settings → Privacy & Security → Open Anyway**. If macOS says the app *is damaged*, run once in Terminal: `xattr -dr com.apple.quarantine "/Applications/Remote Tool.app"`. Intel Macs are not supported by this build. |
 
 ## First steps
 
@@ -45,3 +45,7 @@ host names, user names or addresses you consider private.
 MIT – see [LICENSE](LICENSE).
 
 Checksums: `SHA256SUMS.txt` in the release (`sha256sum -c SHA256SUMS.txt`).
+
+**Updates:** from 0.8.7 on, Remote Tool looks for new versions itself and installs them on request
+(Windows, AppImage, macOS; the `.deb` dialog links to the release page). The `.sig`, `.app.tar.gz`
+and `latest.json` files in a release are for this updater – you don't need to download them.
